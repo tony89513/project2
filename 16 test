@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1 style="color: aqua; text-align: center;">太陽 水星 金星 地球(月亮) 火星 木星 土星 天王星 海王星</h1>
+
+<body id="universe">
+    <div id="stars"></div>
+    <div id="sun"></div>
+
+    <div id="earthOrbit">
+        <img id="earth" src="earth.png" alt="earth" width="80px" height="80px">
+        <div id="moonOrbit">
+            <div id="moon"></div>
+        </div>
+
+        <div id="Mercury">
+            <img id="Mercury" src="water.png" alt="Mercury">
+        </div>
+
+        <div id="Venus">
+            <img id="Venus" src="gold.png" alt="Venus">
+        </div>
+
+        <div id="Mars">
+            <img id="Mars" src="mars .png" alt="Mars">
+        </div>
+
+        <div id="Jupiter">
+            <img id="Jupiter" src="jupiter.png" alt="Jupiter">
+        </div>
+
+        <div id="Saturn">
+            <img id="Saturn" src="dust.png" alt="Saturn">
+        </div>
+
+        <div id="Uranus">
+            <img id="Uranus" src="sky_king.png" alt="Uranus">
+        </div>
+
+        <div id="Neptune">
+            <img id="Neptune" src="sea_king.png" alt="Neptune">
+        </div>
+
+    </div>
+</body>
+
+</html>
